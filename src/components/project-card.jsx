@@ -67,6 +67,7 @@ const Description = styled.p`
   font-size: 1.1rem;
   font-weight: 400;
   margin-top: 12px;
+  color: rgba(0,0,0, 0.5);
 `;
 
 const LearnMore = styled.h1`
@@ -112,6 +113,7 @@ ProjectCard.propTypes = {
   link: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired,
+  image: PropTypes.node.isRequired,
 };
 
 export default ProjectCard;

@@ -24,6 +24,10 @@ const ContactContainer = styled.div`
 
 const Contact = styled.a`
   margin: 0 24px;
+
+  &:hover {
+    color: ${({ color }) => color}
+  }
 `;
 
 const Footer = () => (
@@ -31,10 +35,10 @@ const Footer = () => (
     <div id="contact" />
     <Heading>Let&#39;s get in contact</Heading>
     <ContactContainer>
-      <Contact href="mailto:samuelle107@gmail.com" target="_blank">Email</Contact>
-      <Contact href="https://www.instagram.com/notsamle/?hl=en" target="_blank">Instagram</Contact>
-      <Contact href="https://github.com/samuelle107" target="_blank">Github</Contact>
-      <Contact href="https://www.linkedin.com/in/samuelle107/" target="_blank">LinkedIn</Contact>
+      <Contact color="#f7c3b5" href="mailto:samuelle107@gmail.com" target="_blank">Email</Contact>
+      <Contact color="#eabfff" href="https://www.instagram.com/notsamle/?hl=en" target="_blank">Instagram</Contact>
+      <Contact color="#a3d3ff" href="https://github.com/samuelle107" target="_blank">Github</Contact>
+      <Contact color="#de0f66" href="https://www.linkedin.com/in/samuelle107/" target="_blank">LinkedIn</Contact>
     </ContactContainer>
   </FooterContainer>
 );

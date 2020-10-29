@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     &:hover {
-      color: #de0f66;
+      color: ${({ color }) => color};
       transition: 0.3s;
       cursor: pointer;
     }

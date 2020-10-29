@@ -16,7 +16,7 @@ const Paragraph = styled.p`
 `;
 
 const Emphasis = styled.span`
-  color: #de0f66;
+  color: ${({ color }) => color};
   font-weight: bold;
 `;
 
@@ -26,13 +26,13 @@ const About = () => (
     <AboutContainer>
       <Title>
         Hey, I am
-        <Emphasis>&nbsp;Samuel Le</Emphasis>
+        <Emphasis color="#de0f66">&nbsp;Samuel Le</Emphasis>
       </Title>
       <Paragraph>
         I graduated from the
-        <Emphasis>&nbsp;University of Arkansas&nbsp;</Emphasis>
+        <Emphasis color="#de0f66">&nbsp;University of Arkansas&nbsp;</Emphasis>
         in 2020 with a bachelor&#39;s degree in
-        <Emphasis>&nbsp;Computer Science&nbsp;</Emphasis>
+        <Emphasis color="#de0f66">&nbsp;Computer Science&nbsp;</Emphasis>
         and a minor in Mathematics.
         While my major had no emphasis on UI/UX,
         it was always something I appreciated.
@@ -41,7 +41,7 @@ const About = () => (
       </Paragraph>
       <Paragraph>
         Currently, I work for
-        <Emphasis>&nbsp;Walmart&nbsp;</Emphasis>
+        <Emphasis color="#de0f66">&nbsp;Walmart&nbsp;</Emphasis>
         as a UI/UX Developer.
         While I am still fresh to the industry,
         I am trying to adapt to modern techniques of UI/UX design during

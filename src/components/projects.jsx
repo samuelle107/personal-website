@@ -5,6 +5,7 @@ import Section from './section';
 import Thinking from '../assets/thinking.svg';
 import Analysis from '../assets/analysis.svg';
 import Influencer from '../assets/influencer.svg';
+import Tasks from '../assets/tasks.svg';
 
 const ProjectsContainer = styled.div`
   display: flex;
@@ -36,6 +37,14 @@ const projects = [
     description: 'MAZ Chan is a Discord bot written in Python and is hosted on Heroku. She helps scrap Reddit for information about mechanical keyboards and gives the members fun commands.',
     color: '#DDEEFE',
     image: <Analysis style={{ width: '90%', height: '100%' }} />,
+  },
+  {
+    id: 4,
+    title: 'Todo',
+    link: 'https://github.com/samuelle107/todo-list',
+    description: 'Todo is an Android application. Users can add tasks and set alarms when the task is due.',
+    color: '#E486A8',
+    image: <Tasks style={{ width: '70%', height: '100%' }} />,
   },
 ];
 

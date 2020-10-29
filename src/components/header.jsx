@@ -15,25 +15,28 @@ const LinkContainer = styled.div`
   display: flex;
 `;
 
-const LinkWrapper = styled.div`
+const StyledLink = styled(({ children, className, to }) => (
+  <AnchorLink
+    to={to}
+    className={className}
+  >
+    {children}
+  </AnchorLink>
+))`
   margin-left: 48px;
+
+  &:hover {
+    color: ${({ color }) => color};
+  }
 `;
 
 const Header = () => (
   <HeaderContainer>
     <LinkContainer>
-      <LinkWrapper>
-        <AnchorLink to="/#home">Home</AnchorLink>
-      </LinkWrapper>
-      <LinkWrapper>
-        <AnchorLink to="/#projects">Projects</AnchorLink>
-      </LinkWrapper>
-      <LinkWrapper>
-        <AnchorLink to="/#about">About</AnchorLink>
-      </LinkWrapper>
-      <LinkWrapper>
-        <AnchorLink to="/#contact">Contact</AnchorLink>
-      </LinkWrapper>
+      <StyledLink color="#f7c3b5" to="/#home">Home</StyledLink>
+      <StyledLink color="#eabfff" to="/#projects">Projects</StyledLink>
+      <StyledLink color="#a3d3ff" to="/#about">About</StyledLink>
+      <StyledLink color="#de0f66" to="/#contact">Contact</StyledLink>
     </LinkContainer>
   </HeaderContainer>
 );

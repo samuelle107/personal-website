@@ -71,7 +71,7 @@ const Landing = () => (
         </Title>
         <Description>
         I am a software engineer residing in the Northwest Arkansas area.
-        I enjoy making clean web and mobile application and 3D designing.
+        I enjoy making clean web and mobile applications and 3D designing.
         </Description>
       </InfoContainer>
       <ProfilePicture

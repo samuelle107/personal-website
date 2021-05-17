@@ -70,8 +70,8 @@ const Landing = () => (
           <Emphasis>&nbsp;Samuel Le</Emphasis>
         </Title>
         <Description>
-          I am a web developer in the Northwest Arkansas area.
-          I enjoy making web and mobile apps and improving my UI/UX skills.
+        I am a software engineer residing in the Northwest Arkansas area.
+        I enjoy making clean web and mobile application and 3D designing.
         </Description>
       </InfoContainer>
       <ProfilePicture

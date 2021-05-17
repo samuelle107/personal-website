@@ -33,47 +33,18 @@ const About = () => (
         <Emphasis color="#de0f66">&nbsp;University of Arkansas&nbsp;</Emphasis>
         in 2020 with a bachelor&#39;s degree in
         <Emphasis color="#de0f66">&nbsp;Computer Science&nbsp;</Emphasis>
-        and a minor in Mathematics.
-        While my major had no emphasis on UI/UX,
-        it was always something I appreciated.
-        I wanted to go the extra mile to make my applications look aesthetically pleasing
-        without losing any functionality nor hindering the user experience.
+        and a minor in Mathematics. My main interest is front-end development, but I also enjoy making discord bots on the side.
+        As of now, I am currently a UI/UX developer at
+        <Emphasis color="#de0f66">&nbsp;Walmart</Emphasis>.
       </Paragraph>
       <Paragraph>
-        Currently, I work for
-        <Emphasis color="#de0f66">&nbsp;Walmart&nbsp;</Emphasis>
-        as a UI/UX Developer.
-        While I am still fresh to the industry,
-        I am trying to adapt to modern techniques of UI/UX design during
-        and outside of work.
-        Previously, I have worked as a web developer at the University of Arkansas and
-        a mobile developer intern at J.B. Hunt.
-        My main toolkit consists of React.JS, React Native, Android, some iOS, and Python.
+        I am a believer that the only good code is clean, testable, and re-usable code.
+        Who cares if you can fit everything in one line if no one can read it?
+        I am also a believer in going the extra mile to make a good UI/UX experience.
+        We spend so much time of our day interacting with these applications, so why not make it aesthetically pleasing?
       </Paragraph>
       <Paragraph>
-        During the quarantine of 2020, I was trapped in my house and had a lot of spare time.
-        Asides from coding, I wanted to use that time to pick up new skills.
-        I love going out to eat, but it was kind of a problem then,
-        so I went on YouTube and started watching cooking videos.
-        I will not lie and say that my food is delicious,
-        but I can at least now cook edible food.
-        Something else I started getting into was custom mechanical keyboards.
-        Do not fall into this long and dark rabbit hole.
-        I started researching about builds, different sets, current and upcoming group buys, etc.
-        While doing so, I found a community of people within the hobby that have since improved my
-        quality of life.
-        I also got into stocks,
-        but there isn&#39;t really much to say since I wake up everyday in red.
-      </Paragraph>
-      <Paragraph>
-        In my spare time, I enjoy playing video games.
-        Currently, I am playing for Final Fantasy XIV and trying not to floor tank.
-        I have been waiting for Cyberpunk 2077 for 7 years,
-        and I still am at the time of me writing this.
-        Asides from that, I enjoy food.
-        Food is pretty cool, and I wouldn&#39;t be here without it.
-        Once the world turns back to normal,
-        I want to travel to different countries and try new and familiar foods.
+        In my free time, I enjoy taking on different side projects such as iOS development, web development, and designing bespoke mechanical keyboards, cooking, playing video games, and reading.
       </Paragraph>
     </AboutContainer>
   </Section>

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/circular/Circular-Medium.woff");
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/circular/Circular-Bold.woff");
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/circular/Circular-Black.woff");
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/circular/Circular-Book.woff");
+}

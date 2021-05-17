@@ -1,6 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
+
+const SlideIn = keyframes`
+  from {
+    transform: translateY(-60%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+`;
 
 const HeaderContainer = styled.div`
   display: flex;
@@ -9,6 +20,11 @@ const HeaderContainer = styled.div`
   width: 100%;
   max-width: 1200px;
   height: 10vh;
+  animation: ${SlideIn} 1.5s;
+
+  @media screen and (max-width: 1169px) {
+    display: none;
+  }
 `;
 
 const LinkContainer = styled.div`

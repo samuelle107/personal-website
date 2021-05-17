@@ -2,15 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const ProjectCardContainer = styled.div`
+const ProjectCardContainer = styled.a`
   display: flex;
-  border-radius: 4px;
+  flex-direction: column;
   height: 730px;
   overflow: hidden;
 
   @media screen and (min-width: 800px) {
     width: 50%;
-    justify-content: ${({ index }) => (index % 2 === 0 ? 'flex' : 'flex-end')};
+    align-items: ${({ index }) => (index % 2 === 0 ? 'flex' : 'flex-end')};
     padding: ${({ index }) => (index % 2 === 0 ? '0 15px 30px 0' : '0 0 30px 15px;')};
     box-sizing: border-box;
   }
@@ -22,26 +22,12 @@ const ProjectCardContainer = styled.div`
 `;
 
 const Card = styled.div`
-  background-color: ${(props) => props.color};
-  height: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden;
-`;
-
-const CardLink = styled.a`
-  &:hover {
-    color: black;
-  }
-`;
-
-const HoverWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  background-color: ${(props) => props.color};
   height: 100%;
+  border-radius: 4px;
   transition: 0.3s;
 
   &:hover {
@@ -49,6 +35,13 @@ const HoverWrapper = styled.div`
     transition: 0.3s;
     cursor: pointer;
   }
+`;
+
+const HoverWrapper = styled.div`
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
 `;
 
 const InfoContainer = styled.div`
@@ -89,21 +82,19 @@ const ProjectCard = ({
   index,
   image,
 }) => (
-  <ProjectCardContainer index={index}>
-    <Card color={color}>
-      <CardLink href={link} target="_blank">
-        <HoverWrapper>
-          <InfoContainer>
-            <Title>{title}</Title>
-            <Description>{description}</Description>
-            <LearnMore>Learn More →</LearnMore>
-          </InfoContainer>
-          <ImageContainer>
-            {image}
-          </ImageContainer>
-        </HoverWrapper>
-      </CardLink>
-    </Card>
+  <ProjectCardContainer index={index} href={link} target="_blank">
+    <HoverWrapper>
+      <Card color={color}>
+        <InfoContainer>
+          <Title>{title}</Title>
+          <Description>{description}</Description>
+          <LearnMore>Learn More →</LearnMore>
+        </InfoContainer>
+        <ImageContainer>
+          {image}
+        </ImageContainer>
+      </Card>
+    </HoverWrapper>
   </ProjectCardContainer>
 );
 

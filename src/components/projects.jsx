@@ -20,8 +20,8 @@ const projects = [
     id: 6,
     title: 'VX.KB',
     link: 'https://github.com/samuelle107/VX.KB',
-    description: 'This is a side hobby mine. This is where I keep updated information about the keyboards I have designed.',
-    color: '#fff5e0',
+    description: 'This is a repository where I host information about my keyboard designs and open source files.',
+    color: '#fff9ed',
     image: <Thought style={{ width: '90%', height: '100%' }} />,
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     title: 'Umami',
     link: 'https://umami-website.herokuapp.com/',
     description: 'This site was made using Next.JS and is hosted on Heroku. The website is made for community members to host recipes that do not contain unnecessary backstories.',
-    color: '#f2b99d',
+    color: '#fff0e8',
     image: <Cooking style={{ width: '90%', height: '100%' }} />,
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     title: 'Personal Website',
     link: 'https://github.com/samuelle107/personal-website',
     description: 'My site was made with Gatsby.JS. This is a playground for me to show off my projects and practice modern techniques for web design.',
-    color: '#FFE9E2',
+    color: '#ffeee8',
     image: <Thinking style={{ width: '90%', height: '100%' }} />,
   },
   {
@@ -53,7 +53,7 @@ const projects = [
     title: 'MAZ Chan',
     link: 'https://github.com/samuelle107/maz-chan',
     description: 'MAZ Chan is a Discord bot written in Python and is hosted on Heroku. She helps scrape Reddit for information about mechanical keyboards and gives the members fun commands.',
-    color: '#bad6f5',
+    color: '#b3cdff',
     image: <Analysis style={{ width: '90%', height: '100%' }} />,
   },
   {
